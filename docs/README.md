@@ -1,7 +1,7 @@
 ---
 home: true
-heroImage: /logo.png
+heroImage: ""
 actionText: See Demos →
-actionLink: /demos/CustomTracking
-footer: MIT Licensed | Copyright © 2017-present Niklas Gruhn
+actionLink: /demos/LabelRecognition
+footer: ""
 ---

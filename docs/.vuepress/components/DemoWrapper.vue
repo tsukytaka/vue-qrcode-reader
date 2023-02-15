@@ -3,6 +3,7 @@
 </template>
 
 <script>
+import LabelRecognition from './demos/LabelRecognition.vue'
 import CustomTracking from './demos/CustomTracking.vue'
 import DecodeAll from './demos/DecodeAll.vue'
 import SwitchCamera from './demos/SwitchCamera.vue'
@@ -16,6 +17,7 @@ import ScanSameQrcodeMoreThanOnce from './demos/ScanSameQrcodeMoreThanOnce.vue'
 
 export default {
   components: {
+    LabelRecognition,
     DecodeAll,
     CustomTracking,
     SwitchCamera,

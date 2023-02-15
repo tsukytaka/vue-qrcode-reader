@@ -2,42 +2,22 @@ module.exports = {
   devServer: {
     https: true
   },
-  title: 'Vue Qrcode Reader',
-  description: 'A set of Vue.js components for detecting and decoding QR codes.',
+  title: 'Tool Reader',
+  description: 'A set of utilities with camera',
 
-  base: '/vue-qrcode-reader/',
+  base: '/',
   extraWatchFiles: [
     '../src/'
   ],
 
   themeConfig: {
-    repo: 'gruhn/vue-qrcode-reader',
-
     sidebar: {
       '/demos/': [
-        'Simple',
-        'DecodeAll',
-        'CustomTracking',
-        'LoadingIndicator',
-        'ScanSameQrcodeMoreThanOnce',
-        'Validate',
-        'SwitchCamera',
-        'Fullscreen',
-        'Torch',
-        'DragDrop',
-        'Upload'
-      ],
-
-      '/api/': [
-        'QrcodeStream',
-        'QrcodeDropZone',
-        'QrcodeCapture'
+        'LabelRecognition'
       ],
     },
 
     nav: [
-      { text: 'Live Demos', link: '/demos/CustomTracking' },
-      { text: 'API Reference', link: '/api/QrcodeStream' }
     ]
   }
 }
